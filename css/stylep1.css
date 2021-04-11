@@ -172,7 +172,7 @@ body {
     background-color: rgb(235, 235, 235);
     color: #333;
     background-image: url(/img/bgleft.png);
-    background-position: 0px 115px;
+    background-position: left bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
