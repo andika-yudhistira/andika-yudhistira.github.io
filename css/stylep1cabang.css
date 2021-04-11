@@ -177,10 +177,35 @@ body {
     background-attachment: fixed;
 }
 
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #09f;
+    border-bottom: 3px solid #06c;
+    z-index: 9999;
+}
+
 .container {
     width: 1000px;
-    margin: auto;
+    margin: 80px auto;
     background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.instagram {
+    width: 200px;
+    height: 200px;
+    background-image: url(/img/ig.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    position: absolute;
+    top: -31px;
+    right: -160px;
+
 }
 
 .judul {
